@@ -1,0 +1,22 @@
+<!--
+Copyright (c) Jan Behrens - All Rights Reserved
+Created on: 10/18/20
+    Author: Jan Behrens <Jan.Kristof.Behrens@cvut.cz>
+   Details:
+-->
+
+<launch>
+
+    <node name="image_saver_1" pkg="image_view" type="image_saver">
+        <param name="image" value="/camera1/color/image_raw"/>
+        <param name="_save_all_image" value="false"/>
+        <param name="_filename_format" value="left%04d.jpg"/>
+    </node>
+
+    <node name="image_saver_2" pkg="image_view" type="image_saver">
+        <param name="image" value="/camera2/color/image_raw"/>
+        <param name="_save_all_image" value="false"/>
+        <param name="_filename_format" value="left%04d.jpg"/>
+    </node>
+
+</launch>
