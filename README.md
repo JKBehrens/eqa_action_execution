@@ -31,3 +31,9 @@ Skills related to the gripper are defined in [gripper_actions.py](src/eqa/grippe
 
 Skills related to navigating the robotic arm are defined in [manipulator_actions.py](src/eqa/manipulator_actions.py).
 
+## Acknowledgements
+This work was supported by the project Interactive Perception-Action-Learning for Modelling Objects (IPALM, https://sites.google.com/view/ipalm) (H2020 -  FET - ERA-NET Cofund - CHIST-ERA III / Technology Agency of the Czech Republic, EPSILON, no. TH05020001).  
+
+<p align="middle">
+ <img src="figs/tacr.png" width=10%>
+</p>  
